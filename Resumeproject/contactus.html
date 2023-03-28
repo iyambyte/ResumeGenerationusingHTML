@@ -1,0 +1,73 @@
+<html>
+<head>
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation: myfirst 5s linear 2s infinite alternate;
+}
+
+  
+
+@keyframes myfirst {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+a[target]
+{
+background-color:yellow;
+}
+</style>
+</head>
+<body>
+<div class="gallery">
+  
+    <img src="phone.png" alt="Cinque Terre" width="600" height="400">
+  </a>
+  
+<p>Phone:<a href="" target="">(+91-6381286785)</a></p>
+
+</div>
+<div class="gallery">
+  
+    <img src="email.png" alt="Cinque Terre" width="600" height="400">
+  </a>
+ 
+EmailId:<a href="mailto:skamaleshkumar25082000@gmail.com" target="">skam****@gmail.com</a>
+
+</div>
+<div class="gallery">
+  
+    <img src="Instagram.png" alt="Cinque Terre" width="600" height="400">
+  </a>
+  
+<p>Instagram:<a href="" target="">kamal_prince27</a></p>
+
+</div>
+</body>
+</html>
